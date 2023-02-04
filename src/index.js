@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Bienvenido a mi aplicación');
+    res.send('Bienvenido a mi aplicación en Railway');
 });
 
 app.get('/home', (req, res) => {
